@@ -1,0 +1,30 @@
+{
+    "name" : "trigukvv/AuthenticationBundle",
+    "description" : "A simple and boring bundle for Symfony framework providing basic authentication logic: login, registration. Nothing special.",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "trigukvv",
+        "email" : "triguk_vv@tut.by"
+    }],
+    "keywords" : [
+        "Authentication"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "triguk\\AuthenticationBundle" : ""
+        }
+    },
+    "target-dir" : "triguk/AuthenticationBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "some_version-dev"
+        }
+    }
+}
