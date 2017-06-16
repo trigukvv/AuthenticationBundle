@@ -1,0 +1,13 @@
+{% extends baseTemplate %}
+{% block body %}
+{% if error %}
+    <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+{% endif %}
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+
+    {{ form_end(form) }}
+    
+
+
+{% endblock %}
